@@ -13,3 +13,5 @@ console.log("Hello, world!")
 '''
 ### Work experience
 I _don't have_ any experience working in frontend yet.
+### Education
+I have _a general secondary education_. This year I finished 11 classes.
