@@ -5,3 +5,5 @@
 - Email: _annymefsmm@gmail.com_
 ### About me
 Hi! My name is __Hanna Kakhno__. I would like to __learn programming__. My strengths are determination and the ability to work in a team. I can also find a creative approach to solving a problem.
+### Skills
+I studied Pascal ABC at school lvl. But I would like to learn more relevant programming languages!
