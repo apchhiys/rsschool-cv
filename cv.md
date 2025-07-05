@@ -11,3 +11,5 @@ I studied Pascal ABC at school lvl. But I would like to learn more relevant prog
 '''
 console.log("Hello, world!")
 '''
+### Work experience
+I _don't have_ any experience working in frontend yet.
