@@ -15,3 +15,5 @@ console.log("Hello, world!")
 I _don't have_ any experience working in frontend yet.
 ### Education
 I have _a general secondary education_. This year I finished 11 classes.
+### English level
+My english lvl B1. But I strive to improve it!
