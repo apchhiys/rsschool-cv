@@ -7,10 +7,10 @@
     <title>My CV</title>
 </head>
 <body>
-    <header>
+    <header class="header">
       <div class="header-container">
         <nav class="header-nav">
-          <ul class="nav_list">
+          <ul class="nav-list">
             <li><a class="nav_item" href="#about">About Me</a></li>
             <li><a class="nav_item" href="#contacts">Contacts</a></li>
             <li><a class="nav_item" href="#skills">Skills</a></li>
@@ -22,55 +22,59 @@
         </nav>
       </div>
     </header>
-    <main>
+    <main class="main">
         <div class="main-container">
             <div class="me">
                 <img class="photo" src="photo.jpg" alt="My photo">
                 <h1>Hanna Kakhno</h1>
-            </div>
-            <div class="contacts">
+                <div class="contacts">
                 <h2>Contacts</h2>
                 <ul>
-                    <li><i>Gomel, Belarus</i></li>
+                    <li>Gomel, Belarus</li>
                     <li>Contact phone: <i>+375 44 518-22-34</i></li>
                     <li>Email:<i> annymefsmm@gmail.com</i></li>
                     <li>GitHub: <i>apchhiys</i></li>
                 </ul>
             </div>
-            <div class="about">
-                <h2>About me</h2>
-                <p>Hi! My name is Hanna Kakhno. I would like to learn programming. My strengths are determination and the ability to work in a team. I can also find a creative approach to solving a problem.</p>
             </div>
-            <div class="skills">
-                <h2>Skills</h2>
-                <p>I studied Pascal ABC at school lvl. But I would like to learn more relevant programming languages!</p>
+            <div class="container1">
+                <div class="about" id="about">
+                    <h2>About me</h2>
+                    <p>Hi! My name is Hanna Kakhno. I would like to learn programming. My strengths are determination and the ability to work in a team. I can also find a creative approach to solving a problem.</p>
+                </div>
+                <div class="skills" id="skills">
+                    <h2>Skills</h2>
+                    <p>I studied Pascal ABC at school lvl. But I would like to learn more relevant programming languages!</p>
+                </div>
+                <div class="code" id="code">
+                    <h2>Code example</h2>
+                    <pre>
+                        &LT;h1&gt;Hello, World!&LT;&sol;h1&gt;
+                    </pre>
+                </div>
             </div>
-            <div class="code">
-                <h2>Code example</h2>
-                <pre>
-                    &LT;h1&gt;Hello, World!&LT;&sol;h1&gt;
-                </pre>
-            </div>
-            <div class="progect">
-                <h2>My projects</h2>
-                <p>I don't have any experience working in frontend yet. CV &ndash; my first project.</p>
-            </div>
-            <div class="educ">
-                <h2>Education</h2>
-                <p>I have a general secondary education. This year I finished 11 classes.</p>
-                <p>I also completed summer intensive courses "Dive into web design: from idea to interactive website prototype", "Design of website and application interfaces" and courses "Design. Digital-illustration", "Design. Advertising. SMM", "3D graphics in Blender" from ITeen Academy.</p>
-            </div>
-            <div class="lang">
-                <h2>Language</h2>
-                <p>My english lvl B1. But I strive to improve it!</p>
+            <div class="container2">
+                <div class="project" id="project">
+                    <h2>My projects</h2>
+                    <p>I don't have any experience working in frontend yet. CV &ndash; my first project.</p>
+                </div>
+                <div class="educ" is="educ">
+                    <h2>Education</h2>
+                    <p>I have a general secondary education. This year I finished 11 classes.</p>
+                    <p>I also completed summer intensive courses "Dive into web design: from idea to interactive website prototype", "Design of website and application interfaces" and courses "Design. Digital-illustration", "Design. Advertising. SMM", "3D graphics in Blender" from ITeen Academy.</p>
+                </div>
+                <div class="lang" id="lang">
+                    <h2>Language</h2>
+                    <p>My english lvl B1. But I strive to improve it!</p>
+                </div>
             </div>
         </div>
     </main>
-    <footer>
+    <footer class="footer">
         <div class="footer-container">
-            <a href="https://github.com/apchhiys"><img src="github-logo.svg" alt="My GitHub"></a>
-            <p>2025</p>
-            <a href="https://rs.school/courses/javascript-ru"><img src="rs-school-logo.svg" alt="RS School course"></a>
+            <a href="https://github.com/apchhiys"><img class="github" src="github-logo.svg" alt="My GitHub"></a>
+            <p><b>2025</b></p>
+            <a href="https://rs.school/courses/javascript-ru"><img class="rs" src="rs-school-logo.svg" alt="RS School course"></a>
         </div>
     </footer>
 </body>
