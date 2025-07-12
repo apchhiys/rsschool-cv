@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+  margin: 15px 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+h1 {
+    color: #B87332;
+}
+
+h2 {
+    color: #DB9D63;
+}
+
+.header {
+    background-color: #794311;
+    color: #fff;
+    width: 1500px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: center;
+    right: 20px;
+}
+
+.header-nav a {
+    padding: 20px 20px;
+    line-height: 70px;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-list a {
+    color: #fff;
+    font-size: 25px;
+}
+
+.nav-list a:hover {
+    color: #DBAE82;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ffffff;
+    height: 620px;
+    align-items: center;
+    width: 1500px;
+    height: 600px;
+}
+
+.photo {
+    margin-top: 20px;
+    border-radius: 55%;
+    width: 250px;
+    height: auto;
+}
+
+.me {
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    margin: 20px;
+}
+
+.container1 {
+    margin-top: -90px;
+}
+
+.container2 {
+    margin-top: -80px;
+}
+
+.contacts {
+    width: 270px;
+    height: 190px;
+    text-align: center;
+    border-radius: 3%;
+    margin-top: 80px;
+    border: 5px outset #DBAE82;
+}
+
+.about {
+    width: 345px;
+    height: 140px;
+    text-align: center;
+    border-radius: 3%;
+    margin-top: 80px;
+    border: 5px outset #DBAE82;
+}
+
+.skills {
+    width: 345px;
+    height: 105px;
+    text-align: center;
+    border-radius: 3%;
+    margin-top: 80px;
+    border: 5px outset #DBAE82;
+}
+
+.code {
+    width: 345px;
+    height: 65px;
+    text-align: center;
+    border-radius: 3%;
+    margin-top: 80px;
+    border: 5px outset #DBAE82;
+}
+
+.project {
+    width: 345px;
+    height: 80px;
+    text-align: center;
+    border-radius: 3%;
+    margin-top: 80px;
+    border: 5px outset #DBAE82;
+}
+
+.educ {
+    width: 345px;
+    height: 200px;
+    text-align: center;
+    border-radius: 3%;
+    margin-top: 80px;
+    border: 5px outset #DBAE82;
+}
+
+.lang {
+    width: 345px;
+    height: 70px;
+    text-align: center;
+    border-radius: 3%;
+    margin-top: 80px;
+    border: 5px outset #DBAE82;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #794311;
+    color: #000;
+    font-size: 50px;
+    width: 1500px;
+    height: 100px
+}
+
+.github {
+    width: 150px;
+}
+
+.rs {
+    width: 140px;
+}
